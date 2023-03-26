@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8125DDE029CFE2E900B8F412 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8125DDDF29CFE2E900B8F412 /* Theme.swift */; };
+		8125DDE229CFEE1600B8F412 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8125DDE129CFEE1600B8F412 /* DailyScrum.swift */; };
 		814FA3B229CC150600E94492 /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814FA3B129CC150600E94492 /* ScrumdingerApp.swift */; };
 		814FA3B429CC150600E94492 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814FA3B329CC150600E94492 /* MeetingView.swift */; };
 		814FA3B629CC150700E94492 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 814FA3B529CC150700E94492 /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		8125DDDF29CFE2E900B8F412 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		8125DDE129CFEE1600B8F412 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		814FA3AE29CC150600E94492 /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		814FA3B129CC150600E94492 /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
 		814FA3B329CC150600E94492 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				8125DDDF29CFE2E900B8F412 /* Theme.swift */,
+				8125DDE129CFEE1600B8F412 /* DailyScrum.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				814FA3B429CC150600E94492 /* MeetingView.swift in Sources */,
 				8125DDE029CFE2E900B8F412 /* Theme.swift in Sources */,
 				814FA3B229CC150600E94492 /* ScrumdingerApp.swift in Sources */,
+				8125DDE229CFEE1600B8F412 /* DailyScrum.swift in Sources */,
 				814FA3BE29CC150700E94492 /* Scrumdinger.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
