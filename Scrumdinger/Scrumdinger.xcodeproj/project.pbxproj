@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8125DDE029CFE2E900B8F412 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8125DDDF29CFE2E900B8F412 /* Theme.swift */; };
 		814FA3B229CC150600E94492 /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814FA3B129CC150600E94492 /* ScrumdingerApp.swift */; };
 		814FA3B429CC150600E94492 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814FA3B329CC150600E94492 /* MeetingView.swift */; };
 		814FA3B629CC150700E94492 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 814FA3B529CC150700E94492 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8125DDDF29CFE2E900B8F412 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		814FA3AE29CC150600E94492 /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		814FA3B129CC150600E94492 /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
 		814FA3B329CC150600E94492 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -76,6 +78,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8125DDDE29CFE28300B8F412 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8125DDDF29CFE2E900B8F412 /* Theme.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		814FA3A529CC150600E94492 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +109,7 @@
 		814FA3B029CC150600E94492 /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
+				8125DDDE29CFE28300B8F412 /* Models */,
 				814FA3B129CC150600E94492 /* ScrumdingerApp.swift */,
 				814FA3B329CC150600E94492 /* MeetingView.swift */,
 				814FA3B529CC150700E94492 /* Assets.xcassets */,
@@ -267,6 +278,7 @@
 			files = (
 				814FA3BB29CC150700E94492 /* Persistence.swift in Sources */,
 				814FA3B429CC150600E94492 /* MeetingView.swift in Sources */,
+				8125DDE029CFE2E900B8F412 /* Theme.swift in Sources */,
 				814FA3B229CC150600E94492 /* ScrumdingerApp.swift in Sources */,
 				814FA3BE29CC150700E94492 /* Scrumdinger.xcdatamodeld in Sources */,
 			);
