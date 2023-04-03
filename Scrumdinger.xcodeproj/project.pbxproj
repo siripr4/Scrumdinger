@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8107AAA729D80B4F003EF9FA /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8107AAA629D80B4F003EF9FA /* DetailView.swift */; };
 		8125DDE029CFE2E900B8F412 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8125DDDF29CFE2E900B8F412 /* Theme.swift */; };
 		8125DDE229CFEE1600B8F412 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8125DDE129CFEE1600B8F412 /* DailyScrum.swift */; };
 		8125DDE429D0157C00B8F412 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8125DDE329D0157C00B8F412 /* CardView.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8107AAA629D80B4F003EF9FA /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		8125DDDF29CFE2E900B8F412 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		8125DDE129CFEE1600B8F412 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		8125DDE329D0157C00B8F412 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				8125DDE329D0157C00B8F412 /* CardView.swift */,
 				8125DDE529D028A400B8F412 /* TrainlingIconLabelStyle.swift */,
 				8125DDE929D3496E00B8F412 /* ScrumsView.swift */,
+				8107AAA629D80B4F003EF9FA /* DetailView.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 				8125DDE429D0157C00B8F412 /* CardView.swift in Sources */,
 				8125DDEA29D3496E00B8F412 /* ScrumsView.swift in Sources */,
 				814FA3BB29CC150700E94492 /* Persistence.swift in Sources */,
+				8107AAA729D80B4F003EF9FA /* DetailView.swift in Sources */,
 				8125DDE629D028A400B8F412 /* TrainlingIconLabelStyle.swift in Sources */,
 				814FA3B429CC150600E94492 /* MeetingView.swift in Sources */,
 				8125DDE029CFE2E900B8F412 /* Theme.swift in Sources */,
